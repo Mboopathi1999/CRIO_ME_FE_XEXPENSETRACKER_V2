@@ -4,7 +4,7 @@ import './Modal.css'
 const AddExpenseModal = ({ isOpen, onClose, onAddExpense, editingExpense }) => {
   const [formData, setFormData] = useState({
     title: '',
-    amount: '',
+    price: '',
     category: '',
     date: ''
   })
@@ -24,14 +24,14 @@ const AddExpenseModal = ({ isOpen, onClose, onAddExpense, editingExpense }) => {
     if (editingExpense) {
       setFormData({
         title: editingExpense.title,
-        amount: editingExpense.amount.toString(),
+        price: editingExpense.amount.toString(),
         category: editingExpense.category,
         date: editingExpense.date
       })
     } else {
       setFormData({
         title: '',
-        amount: '',
+        price: '',
         category: '',
         date: new Date().toISOString().split('T')[0]
       })
@@ -49,12 +49,12 @@ const AddExpenseModal = ({ isOpen, onClose, onAddExpense, editingExpense }) => {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    if (!formData.title || !formData.amount || !formData.category || !formData.date) {
+    if (!formData.title || !formData.price || !formData.category || !formData.date) {
       alert('Please fill in all fields')
       return
     }
 
-    const numAmount = parseFloat(formData.amount)
+    const numAmount = parseFloat(formData.price)
     if (numAmount <= 0) {
       alert('Please enter a valid amount greater than 0')
       return
@@ -68,7 +68,7 @@ const AddExpenseModal = ({ isOpen, onClose, onAddExpense, editingExpense }) => {
     // Reset form
     setFormData({
       title: '',
-      amount: '',
+      price: '',
       category: '',
       date: new Date().toISOString().split('T')[0]
     })
@@ -77,7 +77,7 @@ const AddExpenseModal = ({ isOpen, onClose, onAddExpense, editingExpense }) => {
   const handleClose = () => {
     setFormData({
       title: '',
-      amount: '',
+      price: '',
       category: '',
       date: new Date().toISOString().split('T')[0]
     })
@@ -110,12 +110,12 @@ const AddExpenseModal = ({ isOpen, onClose, onAddExpense, editingExpense }) => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="amount">Amount</label>
+            <label htmlFor="price">Price</label>
             <input
               type="number"
-              id="amount"
-              name="amount"
-              value={formData.amount}
+              id="price"
+              name="price"
+              value={formData.price}
               onChange={handleChange}
               placeholder="Enter amount"
               step="0.01"

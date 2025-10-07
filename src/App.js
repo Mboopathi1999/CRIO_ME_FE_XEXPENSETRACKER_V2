@@ -9,20 +9,11 @@ import { loadFromStorage, saveToStorage } from './utils/storage'
 import './App.css'
 
 const App = () => {
-  const [walletBalance, setWalletBalance] = useState(5000) // Default balance
-  const [expenses, setExpenses] = useState([])
+  const [walletBalance, setWalletBalance] = useState(() => loadFromStorage('walletBalance', 5000))
+  const [expenses, setExpenses] = useState(() => loadFromStorage('expenses', []))
   const [isAddBalanceModalOpen, setIsAddBalanceModalOpen] = useState(false)
   const [isAddExpenseModalOpen, setIsAddExpenseModalOpen] = useState(false)
   const [editingExpense, setEditingExpense] = useState(null)
-
-  // Load data from localStorage on component mount
-  useEffect(() => {
-    const savedBalance = loadFromStorage('walletBalance', 5000)
-    const savedExpenses = loadFromStorage('expenses', [])
-
-    setWalletBalance(savedBalance)
-    setExpenses(savedExpenses)
-  }, [])
 
   // Save to localStorage whenever data changes
   useEffect(() => {

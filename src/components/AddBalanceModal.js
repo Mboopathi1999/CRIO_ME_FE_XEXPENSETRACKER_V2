@@ -40,7 +40,7 @@ const AddBalanceModal = ({ isOpen, onClose, onAddBalance }) => {
               id="amount"
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
-              placeholder="Enter Amount"
+              placeholder="Income Amount"
               step="0.01"
               min="0"
               required

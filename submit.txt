@@ -1,1 +1,1 @@
-http://localhost:3000
+https://crio-me-fe-xexpensetracker-v2.vercel.app/

@@ -14,7 +14,7 @@ const ExpenseList = ({ expenses, onEdit, onDelete }) => {
   return (
     <div className="expense-list">
       <div className="card">
-        <h2>Recent Transactions</h2>
+        <h2>Transactions</h2>
         <div className="transactions-container">
           {expenses.length === 0 ? (
             <div className="empty-state">
