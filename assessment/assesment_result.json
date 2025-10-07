@@ -1,0 +1,14 @@
+{
+    "Test Case 1: Expense Tracker Tests - should load the home page correctly": "TEST_STATUS_FAILURE",
+    "Test Case 2: Expense Tracker Tests - should display wallet balance and expenses cards": "TEST_STATUS_SKIPPED",
+    "Test Case 3: Expense Tracker Tests - should have a visible header with correct text": "TEST_STATUS_SKIPPED",
+    "Test Case 4: Expense Tracker Tests - should have a button to add income and it should be styled correctly": "TEST_STATUS_SKIPPED",
+    "Test Case 5: Expense Tracker Tests - should be responsive for mobile view": "TEST_STATUS_SKIPPED",
+    "Test Case 6: Expense Tracker Tests - Loads the homepage correctly": "TEST_STATUS_SKIPPED",
+    "Test Case 7: Expense Tracker Tests - Adds an income successfully": "TEST_STATUS_SKIPPED",
+    "Test Case 8: Expense Tracker Tests - Displays added expense in the transaction list": "TEST_STATUS_SKIPPED",
+    "Test Case 9: Expense Tracker Tests - Displays added food and travel expenses in the transaction list": "TEST_STATUS_SKIPPED",
+    "Test Case 10: Expense Tracker Tests - Displays added travel and entertainment expenses in the transaction list": "TEST_STATUS_SKIPPED",
+    "Test Case 11: Expense Tracker Tests - Displays added food, travel, and entertainment expenses in the transaction list": "TEST_STATUS_SKIPPED",
+    "Test Case 12: Expense Tracker Tests - Persists data in localStorage": "TEST_STATUS_SKIPPED"
+}

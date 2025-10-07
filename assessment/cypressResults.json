@@ -1,0 +1,336 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "projectRoot": "/home/gs/Documents/crio/mboopathi1999-ME_FE_XEXPENSETRACKER_V2/assessment",
+    "projectName": "assessment",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "baseUrl": null,
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultBrowser": null,
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "/home/gs/Documents/crio/mboopathi1999-ME_FE_XEXPENSETRACKER_V2/assessment/cypress/downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalJustInTimeCompile": false,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "/home/gs/Documents/crio/mboopathi1999-ME_FE_XEXPENSETRACKER_V2/assessment",
+    "fixturesFolder": "/home/gs/Documents/crio/mboopathi1999-ME_FE_XEXPENSETRACKER_V2/assessment/cypress/fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "linux",
+    "pageLoadTimeout": 60000,
+    "port": 39101,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "/home/gs/.nvm/versions/node/v22.17.1/bin/node",
+    "resolvedNodeVersion": "22.17.1",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "/home/gs/Documents/crio/mboopathi1999-ME_FE_XEXPENSETRACKER_V2/assessment/cypress/screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "/home/gs/Documents/crio/mboopathi1999-ME_FE_XEXPENSETRACKER_V2/assessment/cypress/support/e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "/home/gs/Documents/crio/mboopathi1999-ME_FE_XEXPENSETRACKER_V2/assessment/cypress/videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "138",
+        "name": "chrome",
+        "path": "google-chrome",
+        "version": "138.0.7204.168"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Firefox",
+        "family": "firefox",
+        "majorVersion": "143",
+        "name": "firefox",
+        "path": "firefox",
+        "version": "143.0.4"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "/home/gs/.cache/Cypress/13.17.0/Cypress/resources/app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.17.0",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.17.0",
+  "endedTestsAt": "2025-10-07T20:31:17.500Z",
+  "osName": "linux",
+  "osVersion": "Ubuntu - ",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 0,
+        "pending": 0,
+        "failures": 1,
+        "start": "2025-10-07T20:31:17.210Z",
+        "end": "2025-10-07T20:31:17.503Z",
+        "duration": 293
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/gs/Documents/crio/mboopathi1999-ME_FE_XEXPENSETRACKER_V2/assessment/cypress/screenshots/spec.cy.js/Expense Tracker Tests -- should load the home page correctly -- before each hook (failed).png",
+          "takenAt": "2025-10-07T20:31:17.261Z",
+          "width": 1280
+        }
+      ],
+      "spec": {
+        "absolute": "/home/gs/Documents/crio/mboopathi1999-ME_FE_XEXPENSETRACKER_V2/assessment/cypress/e2e/spec.cy.js",
+        "fileExtension": ".js",
+        "fileName": "spec",
+        "name": "spec.cy.js",
+        "relative": "cypress/e2e/spec.cy.js"
+      },
+      "stats": {
+        "duration": 296,
+        "endedAt": "2025-10-07T20:31:17.500Z",
+        "failures": 1,
+        "passes": 0,
+        "pending": 0,
+        "skipped": 11,
+        "startedAt": "2025-10-07T20:31:17.204Z",
+        "suites": 1,
+        "tests": 12
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://localhost:3000/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Expense Tracker Tests`\n    at <unknown> (http://localhost:39101/__cypress/runner/cypress_runner.js:131591:76)\n    at visitFailedByErr (http://localhost:39101/__cypress/runner/cypress_runner.js:131006:12)\n    at <unknown> (http://localhost:39101/__cypress/runner/cypress_runner.js:131574:13)\n    at tryCatcher (http://localhost:39101/__cypress/runner/cypress_runner.js:1830:23)\n    at Promise._settlePromiseFromHandler (http://localhost:39101/__cypress/runner/cypress_runner.js:1542:31)\n    at Promise._settlePromise (http://localhost:39101/__cypress/runner/cypress_runner.js:1599:18)\n    at Promise._settlePromise0 (http://localhost:39101/__cypress/runner/cypress_runner.js:1644:10)\n    at Promise._settlePromises (http://localhost:39101/__cypress/runner/cypress_runner.js:1720:18)\n    at _drainQueueStep (http://localhost:39101/__cypress/runner/cypress_runner.js:2430:12)\n    at _drainQueue (http://localhost:39101/__cypress/runner/cypress_runner.js:2423:9)\n    at Async._drainQueues (http://localhost:39101/__cypress/runner/cypress_runner.js:2439:5)\n    at Async.drainQueues (http://localhost:39101/__cypress/runner/cypress_runner.js:2309:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://xexpense_tracker_v2/./cypress/e2e/spec.cy.js:4:7)",
+          "duration": 251,
+          "state": "failed",
+          "title": [
+            "Expense Tracker Tests",
+            "should load the home page correctly"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "should display wallet balance and expenses cards"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "should have a visible header with correct text"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "should have a button to add income and it should be styled correctly"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "should be responsive for mobile view"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "Loads the homepage correctly"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "Adds an income successfully"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "Displays added expense in the transaction list"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "Displays added food and travel expenses in the transaction list"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "Displays added travel and entertainment expenses in the transaction list"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "Displays added food, travel, and entertainment expenses in the transaction list"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Expense Tracker Tests",
+            "Persists data in localStorage"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2025-10-07T20:31:17.204Z",
+  "totalDuration": 296,
+  "totalFailed": 1,
+  "totalPassed": 0,
+  "totalPending": 0,
+  "totalSkipped": 11,
+  "totalSuites": 1,
+  "totalTests": 12
+}

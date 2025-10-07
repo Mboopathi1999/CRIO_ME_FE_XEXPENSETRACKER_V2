@@ -1,0 +1,85 @@
+.expense-summary {
+  width: 100%;
+}
+
+.chart-container {
+  margin: 20px 0;
+}
+
+.empty-chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #666;
+  font-size: 16px;
+}
+
+.summary-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Custom legend styles */
+.recharts-legend-item {
+  margin: 0 10px !important;
+}
+
+.recharts-legend-item-text {
+  color: #333 !important;
+  font-size: 14px !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .chart-container {
+    margin: 15px 0;
+  }
+
+  .summary-stats {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .stat-item {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .stat-label {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-container {
+    margin: 10px 0;
+  }
+
+  .stat-value {
+    font-size: 16px;
+  }
+}
